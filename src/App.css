@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.contactTile {
+    border: 1px solid grey;
+    margin: 15px auto;
+    padding: 5px;
+    width: 22.5%;
+}
+
+.contactsList {
+    margin-bottom: 50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+a {
+    color: black;
+    margin: 5px;
+}
